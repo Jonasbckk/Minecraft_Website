@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+::selection {
+    background-color: #e17b22da;
+    color: white; 
+}
+
+body {
+    font-family: montserrat, sans-serif;
+    margin: 0;
+}

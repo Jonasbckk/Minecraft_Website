@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="blogsec.css">
+    <link rel="stylesheet" href="homesec.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footersec.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SererMC.net | Homepage (Template)</title>
+</head>
+<body>
+    <section id="home" class="homesec">
+        <div class="home-container">
+            <div class="navbar">
+                <div class="homenv"><i class="fas fa-home"></i><a href="/"><span class="homespannav">Home</span></a></div>
+                <div class="forumnv"><i class="fa-solid fa-folder-open"></i><a href="#">Forum</a></div>
+                <div class="statusnv"><i class="fa-solid fa-gear"></i><a href="#">Status</a></div>
+                <div class="shopnv"><a href="#">Shop</a></div>
+                <div class="regelnnv"><i class="fa-solid fa-thumbtack"></i><a href="#">Regeln</a></div>
+                <div class="votenv"><i class="fa-solid fa-share-from-square"></i><a href="#">Vote</a></div>
+                <div class="mehrnv"><i class="fa-solid fa-plus"></i><a href="#">Mehr</a></div>
+            </div>
+            <div class="home-content">
+                <div class="home-inhalte">
+                    <div class="home-inhalt1" onclick="copyToClipboard(); showPopup();">
+                        <h3>18471 SPIELER ONLINE</h3>
+                        <p>MC.HYPIXEL.NET</p>
+                        <div class="play-icon"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="home-inhalt2">
+                        <div class="overlay-after-navbar"></div>
+                        <img src="/images/mcicon.webp" onclick="redirectToLink('/')">
+                    </div>                
+                    <div class="home-inhalt3" onclick="redirectToLink('//hypixel.net/discord.')">
+                        <h3>545 USER ONLINE</h3>
+                        <p>DISCORD.GG/JAFSXFEZWJMK</p>
+                        <div class="discord-icon"><i class="fab fa-discord"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs" class="blogsec">
+        <div class="blog-container">
+            <div class="blog-inhalte">
+                <!-- Blog 1 -->
+                <div class="blog1">
+                    <img src="/images/blog1.jpg">
+                    <div class="blog-text">
+                        <h3>Example | Post #1</h3>
+                        <p>Hello! Our current Main Lobby has been in use since 2017,<br> and today we're giving it a fresh new look along with<br> plenty of new things to do! Our lobby hasn't gotten a fresh<br> look since 2017 so we decided to go all out and give it a<br> complete...</p>
+                    </div>
+                </div>
+                <div class="blog2">
+                    <img src="/images/bgblock2.jpg">
+                    <div class="blog-text">
+                        <h3>Example | Post #2</h3>
+                        <p>Hello! Our current Main Lobby has been in use since 2017,<br> and today we're giving it a fresh new look along with<br> plenty of new things to do! Our lobby hasn't gotten a fresh<br> look since 2017 so we decided to go all out and give it a<br> complete...</p>
+                    </div>
+                </div>
+                <div class="blog3">
+                    <img src="/images/bgblock3.jpg">
+                    <div class="blog-text">
+                        <h3>Example | Post #3</h3>
+                        <p>Hello! Our current Main Lobby has been in use since 2017,<br> and today we're giving it a fresh new look along with<br> plenty of new things to do! Our lobby hasn't gotten a fresh<br> look since 2017 so we decided to go all out and give it a<br> complete...</p>
+                    </div>
+                </div>
+                <ul class="pagecontuine">
+                    <li class="back">«</li>
+                    <li class="nowside">1</li>
+                    <li class="up">»</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="footersec">
+        <div class="footer-container">
+            <div class="footer-inhalte">
+                <div class="playnow">
+                    <h3>Spiele Jetzt <span class="minus1">✔</span></h3>
+                    <p>Starte heute dein Abenteuer! Joine unserem Server<br> spiele Survival, SkyWars, und mehr!</p>
+                    <button onclick="copyToClipboard(); showPopup();">MC.HYPIXEL.NET</button>
+                </div>
+            
+                <div id="overlay" onclick="closePopup()"></div>
+            
+                <div id="popup">
+                    <h3>IP Kopiert!</h3>
+                    <p>Joine nun unserem Server!</p>
+                    <button onclick="closePopup()">Close</button>
+                </div>
+
+                <div class="links">
+                    <h3>Links <span class="minus1">✔</span></h3>
+                    <li>Terms and Conditions </li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Notice</li>
+                    <li>Made by <span id="heart" onclick="replaceWithText()">❤</span></li>
+                </div>
+
+                <div class="shop">
+                    <h3>Shop <span class="minus1">✔</span></h3>
+                    <p>Besuche unseren Shop um Ränge, Crate Keys,<br> und mehr zu kaufen!</p>
+                    <button>Shop Now <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/main.js"></script>
+    <script src="https://kit.fontawesome.com/07d9905d00.js" crossorigin="anonymous"></script>
+</body>
+</html>

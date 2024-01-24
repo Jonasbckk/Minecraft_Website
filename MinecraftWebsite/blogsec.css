@@ -1,0 +1,148 @@
+.blogsec {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 100px 100px;
+    margin: 0;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-inhalte {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog2,
+.blog1 {
+    padding: 30px;
+    display: flex; 
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+.blog3 {
+    padding: 30px;
+    display: flex; 
+    justify-content: center;
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+
+.blog-text {
+    background-color: rgba(21, 21, 21, 0.8); 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70%; 
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.blog-text2 {
+    background-color: rgba(21, 21, 21, 0.8); 
+    padding: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70%; 
+}
+
+.blog-text3 {
+    background-color: rgba(21, 21, 21, 0.8); 
+    padding: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70%; 
+}
+
+.blog3 h3,
+.blog2 h3,
+.blog1 h3 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #e17b22da;
+    text-align: left;
+    margin-bottom: 23px; 
+    transition: color 0.15s;
+}
+
+.blog3 h3:hover,
+.blog2 h3:hover,
+.blog1 h3:hover {
+    color: #ec8225f1;
+}
+
+.blog3 p,
+.blog2 p,
+.blog1 p {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+    transition: color 0.15s;
+}
+
+.blog3 p:hover,
+.blog2 p:hover,
+.blog1 p:hover {
+    color: rgba(255, 255, 255, 0.801);
+    cursor: pointer;
+}
+
+.blog1 img {
+    width: 40%;
+    height: 91%;
+}
+
+.blog3 img,
+.blog2 img {
+    width: 40%;
+    height: 88%;
+}
+
+.pagecontuine {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+    margin-right: 63.5%;
+    margin-top: -35px;
+}
+
+.pagecontuine li {
+    color: rgba(255, 255, 255, 0.63);
+    padding: 7px 13px;
+    border-radius: 1px;
+}
+
+.back {
+    background-color: rgba(21, 21, 21, 0.8);
+    font-size: 19px;
+    font-weight: 520;
+}
+
+.nowside {
+    font-size: 15px;
+    font-weight: 520;
+    background-color: #e37d23b0;
+}
+
+.up {
+    background-color: rgba(21, 21, 21, 0.8);
+    font-size: 19px;
+    font-weight: 520; 
+}
+
+.back:hover,
+.nowside:hover,
+.up:hover {
+    cursor: pointer;
+}
